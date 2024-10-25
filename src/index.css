@@ -25,4 +25,6 @@
   --font-size--subtitle: clamp(1.375rem, 1.2171rem + 0.5263vw, 1.625rem);
   --font-size--body: clamp(1rem, 0.8421rem + 0.5263vw, 1.25rem);
   --font-size--label: clamp(0.875rem, 0.7171rem + 0.5263vw, 1.125rem);
+
+  --space--global-padding-inline: clamp(1rem, -0.8947rem + 6.3158vw, 4rem);
 }

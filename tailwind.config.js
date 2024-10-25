@@ -65,6 +65,9 @@ export default {
           },
         ],
       },
+      padding: {
+        global: "var(--space--global-padding-inline)",
+      },
     },
   },
   plugins: [],
