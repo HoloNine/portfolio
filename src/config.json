@@ -1,12 +1,17 @@
 {
   "navigation": [
-    { "id": 1, "label": "Home", "link": "/home" },
+    { "id": 1, "label": "Home", "link": "#home" },
     { "id": 2, "label": "Projects", "link": "#projects" },
-    { "id": 3, "label": "About", "link": "#About" },
+    { "id": 3, "label": "About", "link": "#about" },
     { "id": 4, "label": "Expertise", "link": "#expertise" }
   ],
   "hero": {
     "title": "Crafting great<br />stories with code",
     "text": "Every project tells a story. I'm here to bring it to life and create an experience that really connects with people."
-  }
+  },
+  "socials": [
+    { "id": 1, "label": "GitHub", "link": "#" },
+    { "id": 2, "label": "LinkedIn", "link": "#" },
+    { "id": 3, "label": "CodePen", "link": "#" }
+  ]
 }

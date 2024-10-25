@@ -1,6 +1,7 @@
 // Internal dependencies
 import Logo from "../../components/Logo/Logo";
 import Button from "../../components/Button/Button";
+import Nav from "../../components/Nav/Nav";
 
 // Config
 import config from "../../config.json";
@@ -14,15 +15,7 @@ const Header = () => {
         <Logo />
       </div>
       <div className="flex gap-sxl2xl items-center">
-        <nav>
-          <ul className="flex gap-sml">
-            {navigation.map((item) => (
-              <li key={item.id} className="text-label">
-                {item.label}
-              </li>
-            ))}
-          </ul>
-        </nav>
+        <Nav nav={navigation} />
         <Button />
       </div>
     </header>
