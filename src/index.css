@@ -5,17 +5,24 @@
 :root {
   color-scheme: light dark;
 
-  --primary: #d9596a;
-  --black: #201f1d;
-  --black-48: hsla(0, 0%, 0%, 0.48);
-  --black-36: hsla(0, 0%, 0%, 0.36);
-  --black-24: hsla(0, 0%, 0%, 0.24);
-  --black-12: hsla(0, 0%, 0%, 0.12);
-  --black-04: hsla(0, 0%, 0%, 0.04);
-  --white: #ffffff;
-  --white-48: hsla(0, 0%, 100%, 0.48);
-  --white-36: hsla(0, 0%, 100%, 0.36);
-  --white-24: hsla(0, 0%, 100%, 0.24);
-  --white-12: hsla(0, 0%, 100%, 0.12);
-  --white-04: hsla(0, 0%, 100%, 0.04);
+  --color-primary: #d9596a;
+  --color-black: #201f1d;
+  --color-black-48: hsla(0, 0%, 0%, 0.48);
+  --color-black-36: hsla(0, 0%, 0%, 0.36);
+  --color-black-24: hsla(0, 0%, 0%, 0.24);
+  --color-black-12: hsla(0, 0%, 0%, 0.12);
+  --color-black-04: hsla(0, 0%, 0%, 0.04);
+  --color-white: #ffffff;
+  --color-white-48: hsla(0, 0%, 100%, 0.48);
+  --color-white-36: hsla(0, 0%, 100%, 0.36);
+  --color-white-24: hsla(0, 0%, 100%, 0.24);
+  --color-white-12: hsla(0, 0%, 100%, 0.12);
+  --color-white-04: hsla(0, 0%, 100%, 0.04);
+
+  --font-size--display: clamp(3.625rem, 2.6776rem + 3.1579vw, 5.125rem);
+  --font-size--headline: clamp(2.875rem, 2.1645rem + 2.3684vw, 4rem);
+  --font-size--title: clamp(1.75rem, 1.5921rem + 0.5263vw, 2rem);
+  --font-size--subtitle: clamp(1.375rem, 1.2171rem + 0.5263vw, 1.625rem);
+  --font-size--body: clamp(1rem, 0.8421rem + 0.5263vw, 1.25rem);
+  --font-size--label: clamp(0.875rem, 0.7171rem + 0.5263vw, 1.125rem);
 }
