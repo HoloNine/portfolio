@@ -1,11 +1,16 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
-const plugin = require("tailwindcss/plugin");
 
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        sm: "600px",
+        md: "840px",
+        lg: "1200px",
+        xl: "1600px",
+      },
       colors: {
         primary: "var(--color--primary)",
         black: "var(--color--black)",
@@ -28,7 +33,7 @@ export default {
         display: [
           "var(--font-size--display)",
           {
-            lineHeight: "1.1",
+            lineHeight: "1",
             letterSpacing: "-0.01em",
             fontWeight: "900",
           },
@@ -67,6 +72,27 @@ export default {
       },
       padding: {
         global: "var(--space--global-padding-inline)",
+      },
+      spacing: {
+        s3xs: "var(--space--3xs)",
+        s2xs: "var(--space--2xs)",
+        sxs: "var(--space--xs)",
+        ss: "var(--space--s)",
+        sm: "var(--space--m)",
+        sl: "var(--space--l)",
+        sxl: "var(--space--xl)",
+        s2xl: "var(--space--2xl)",
+        s3xl: "var(--space--3xl)",
+        s3xs2xs: "var(--space--3xs-2xs)",
+        s2xsxs: "var(--space--2xs-xs)",
+        sxss: "var(--space--xs-s)",
+        ssm: "var(--space--s-m)",
+        sml: "var(--space--m-l)",
+        slxl: "var(--space--l-xl)",
+        sxl2xl: "var(--space--xl-2xl)",
+      },
+      minHeight: {
+        hero: "var(--height--hero)",
       },
     },
   },

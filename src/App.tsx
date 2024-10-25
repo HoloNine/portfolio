@@ -1,18 +1,14 @@
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import Main from "./components/Main/main";
+import Footer from "./layout/Footer/Footer";
+import Header from "./layout/Header/Header";
+import Main from "./layout/Main/main";
+import Hero from "./layout/Hero/Hero";
 
 const App = () => {
   return (
     <>
       <Header />
       <Main>
-        <div className="text-display">Display</div>
-        <div className="text-headline">Headline</div>
-        <div className="text-title">Title</div>
-        <div className="text-subtitle">Subtitle</div>
-        <div className="text-body">Body</div>
-        <div className="text-label">Label Large</div>
+        <Hero />
       </Main>
       <Footer />
       <div></div>
