@@ -19,11 +19,10 @@
   --color--white-12: hsla(0, 0%, 100%, 0.12);
   --color--white-04: hsla(0, 0%, 100%, 0.04);
 
-  --font-size--display: clamp(3.625rem, 5vw, 5vw);
-  --font-size--headline: clamp(2.5rem, 3.6vw, 3.6vw);
-  --font-size--title: clamp(2rem, 2.2vw, 2.2vw);
-  --font-size--subtitle: clamp(1.25rem, 1.4vw, 1.4vw);
-  --font-size--body: clamp(1rem, 1vw, 1vw);
+  --font-size--display: clamp(3.5rem, 5vw, 5vw);
+  --font-size--headline: clamp(2.625rem, 3.6vw, 3.6vw);
+  --font-size--title: clamp(2rem, 2.75vw, 2.75vw);
+  --font-size--body: clamp(1.125rem, 1vw, 1vw);
   --font-size--label: clamp(0.875rem, 0.9vw, 0.9rem);
 
   --space--16: clamp(0.5rem, 0.2857rem + 0.7143vw, 1rem);
