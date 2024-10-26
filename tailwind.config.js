@@ -10,6 +10,7 @@ export default {
         md: "840px",
         lg: "1200px",
         xl: "1600px",
+        xxl: "2040px",
       },
       colors: {
         primary: "var(--color--primary)",
@@ -31,7 +32,7 @@ export default {
       },
       fontSize: {
         display: [
-          "clamp(58px, 5vw, 5vw)",
+          "var(--font-size--display)",
           {
             lineHeight: "1.1",
             letterSpacing: "-0.01em",
@@ -67,11 +68,13 @@ export default {
       padding: {
         "global-inline": "var(--fluid--global-inline)",
         "global-block": "var(--fluid--global-block)",
+        "button-start": "var(--fluid--button-start)",
       },
       margin: {
         "global-block": "var(--space--144)",
       },
       spacing: {
+        8: "var(--space--08)",
         16: "var(--space--16)",
         24: "var(--space--24)",
         32: "var(--space--32)",
@@ -82,6 +85,18 @@ export default {
       },
       minHeight: {
         hero: "var(--height--hero)",
+        button: "var(--height--button)",
+      },
+      height: {
+        "logo-icon": "var(--size--logo-icon)",
+        "button-icon": "var(--size--button-icon)",
+      },
+      width: {
+        "logo-icon": "var(--size--logo-icon)",
+        "button-icon": "var(--size--button-icon)",
+      },
+      gap: {
+        button: "var(--fluid--button-gap)",
       },
     },
   },

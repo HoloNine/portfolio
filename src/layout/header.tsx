@@ -1,7 +1,7 @@
 // Internal dependencies
 import Logo from "../icons/logo";
 import Button from "../components/button";
-import Nav from "../components/Nav/Nav";
+import Nav from "../components/nav";
 
 // Config
 import config from "../config.json";

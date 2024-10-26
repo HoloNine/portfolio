@@ -1,4 +1,8 @@
-import { NavType } from "../../types/nav.type";
+type NavType = {
+  id: number;
+  label: string;
+  link: string;
+};
 
 type NavProps = {
   nav: NavType[];
