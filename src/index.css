@@ -34,7 +34,7 @@
   --space--96: clamp(4rem, 3.3846rem + 2.0513vw, 6rem);
   --space--144: clamp(6rem, 5.0769rem + 3.0769vw, 9rem);
 
-  --fluid--global-inline: clamp(1rem, -3.6154rem + 15.3846vw, 16rem);
+  --fluid--global-inline: clamp(1rem, -1.1538rem + 7.1795vw, 8rem);
   --fluid--global-block: clamp(1rem, 0.6923rem + 1.0256vw, 2rem);
   --fluid--button-start: clamp(1.75rem, 1.5962rem + 0.5128vw, 2.25rem);
   --fluid--button-gap: clamp(0.75rem, 0.5962rem + 0.5128vw, 1.25rem);
