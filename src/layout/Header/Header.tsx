@@ -1,5 +1,5 @@
 // Internal dependencies
-import Logo from "../../components/Logo/Logo";
+import Logo from "../../icons/Logo/Logo";
 import Button from "../../components/Button/Button";
 import Nav from "../../components/Nav/Nav";
 
@@ -10,7 +10,7 @@ const Header = () => {
   const { navigation } = config;
 
   return (
-    <header className="flex justify-between items-center">
+    <header className="flex justify-between items-center px-global-inline">
       <div>
         <Logo />
       </div>

@@ -71,8 +71,8 @@ export default {
         ],
       },
       padding: {
-        "global-inline": "var(--space--global--inline)",
-        "global-block": "var(--space--global--block)",
+        "global-inline": "var(--fluid--global-inline)",
+        "global-block": "var(--fluid--global-block)",
       },
       margin: {
         "global-block": "var(--space--144)",

@@ -21,7 +21,7 @@
 
   --font-size--display: clamp(3.5rem, 5vw, 5vw);
   --font-size--headline: clamp(2.625rem, 3.6vw, 3.6vw);
-  --font-size--title: clamp(2rem, 2.75vw, 2.75vw);
+  --font-size--title: clamp(1.5rem, 2.75vw, 2.75vw);
   --font-size--body: clamp(1.125rem, 1vw, 1vw);
   --font-size--label: clamp(0.875rem, 0.9vw, 0.9rem);
 
@@ -33,8 +33,8 @@
   --space--96: clamp(4rem, 3.1429rem + 2.8571vw, 6rem);
   --space--144: clamp(6rem, 4.7143rem + 4.2857vw, 9rem);
 
-  --space--global--inline: 6%;
-  --space--global--block: clamp(1rem, 0.5714rem + 1.4286vw, 2rem);
+  --fluid--global-inline: clamp(1rem, -1.1429rem + 7.1429vw, 6rem);
+  --fluid--global-block: clamp(1rem, 0.5714rem + 1.4286vw, 2rem);
 
   --height--hero: calc(100vh - var(--space--global--block) * 2 - 6rem);
 }

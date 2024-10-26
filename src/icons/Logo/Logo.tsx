@@ -6,9 +6,10 @@ type LogoProps = {
 const Logo = (props: LogoProps) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={49}
-    height={48}
+    width={"var(--space--48)"}
+    height={"var(--space--48)"}
     fill="none"
+    viewBox="0 0 48 48"
     {...props}
   >
     <path
