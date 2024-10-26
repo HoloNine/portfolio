@@ -23,7 +23,7 @@
   --font-size--headline: clamp(2.625rem, 3.6vw, 3.6vw);
   --font-size--title: clamp(1.5rem, 2.75vw, 2.75vw);
   --font-size--body: clamp(1.125rem, 1vw, 1vw);
-  --font-size--label: clamp(0.875rem, 0.9vw, 0.9rem);
+  --font-size--label: clamp(0.875rem, 0.9vw, 0.9vw);
 
   --space--16: clamp(0.5rem, 0.2857rem + 0.7143vw, 1rem);
   --space--24: clamp(1rem, 0.7857rem + 0.7143vw, 1.5rem);

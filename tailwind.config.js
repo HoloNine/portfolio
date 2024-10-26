@@ -54,12 +54,6 @@ export default {
             fontWeight: "600",
           },
         ],
-        subtitle: [
-          "var(--font-size--subtitle)",
-          {
-            lineHeight: "1.2",
-          },
-        ],
         body: ["var(--font-size--body)", { lineHeight: "1.5" }],
         label: [
           "var(--font-size--label)",

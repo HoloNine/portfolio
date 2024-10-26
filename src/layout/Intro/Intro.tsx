@@ -1,5 +1,5 @@
 // Config
-import Button from "../../components/Button/Button";
+import Button from "../../components/button";
 import config from "../../config.json";
 
 const Intro = () => {

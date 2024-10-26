@@ -1,4 +1,4 @@
-import Header from "./layout/header/header";
+import Header from "./layout/header";
 
 const App = () => {
   return (
