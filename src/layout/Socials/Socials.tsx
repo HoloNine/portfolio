@@ -7,7 +7,7 @@ import config from "../../config.json";
 const Socials = () => {
   const { socials } = config;
   return (
-    <section>
+    <section className="mb-global-block">
       <Nav nav={socials} />
     </section>
   );

@@ -31,11 +31,11 @@ export default {
       },
       fontSize: {
         display: [
-          "var(--font-size--display)",
+          "clamp(58px, 5vw, 5vw)",
           {
-            lineHeight: "1",
+            lineHeight: "1.1",
             letterSpacing: "-0.01em",
-            fontWeight: "900",
+            fontWeight: "600",
           },
         ],
         headline: [
@@ -71,25 +71,20 @@ export default {
         ],
       },
       padding: {
-        global: "var(--space--global-padding-inline)",
+        "global-inline": "var(--space--global--inline)",
+        "global-block": "var(--space--global--block)",
+      },
+      margin: {
+        "global-block": "var(--space--144)",
       },
       spacing: {
-        s3xs: "var(--space--3xs)",
-        s2xs: "var(--space--2xs)",
-        sxs: "var(--space--xs)",
-        ss: "var(--space--s)",
-        sm: "var(--space--m)",
-        sl: "var(--space--l)",
-        sxl: "var(--space--xl)",
-        s2xl: "var(--space--2xl)",
-        s3xl: "var(--space--3xl)",
-        s3xs2xs: "var(--space--3xs-2xs)",
-        s2xsxs: "var(--space--2xs-xs)",
-        sxss: "var(--space--xs-s)",
-        ssm: "var(--space--s-m)",
-        sml: "var(--space--m-l)",
-        slxl: "var(--space--l-xl)",
-        sxl2xl: "var(--space--xl-2xl)",
+        16: "var(--space--16)",
+        24: "var(--space--24)",
+        32: "var(--space--32)",
+        48: "var(--space--48)",
+        64: "var(--space--64)",
+        96: "var(--space--96)",
+        144: "var(--space--144)",
       },
       minHeight: {
         hero: "var(--height--hero)",

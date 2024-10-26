@@ -13,5 +13,26 @@
     { "id": 1, "label": "GitHub", "link": "#" },
     { "id": 2, "label": "LinkedIn", "link": "#" },
     { "id": 3, "label": "CodePen", "link": "#" }
-  ]
+  ],
+  "intro": {
+    "title": "Why Choose Me",
+    "text": "Building a project isn’t just about writing code—it’s about creating a product that fits your vision. With expertise across a range of technologies, I bring a personalized approach to every project. From start to finish, I focus on delivering results that work for you.",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Proven Full-Stack Expertise",
+        "text": "From building dynamic front-end interfaces to architecting solid back-end systems, I bring a full-stack development approach to every project. I’ve worked with WordPress Gutenberg blocks, HubSpot HUBL, and modern frameworks like React and Laravel. This experience allows me to seamlessly integrate design with functionality, ensuring your project looks great and performs even better. Whether you need a custom WordPress plugin, a sleek single-page React app, or a robust Laravel-powered backend, I’ve got the tools and expertise to make it happen—all tailored to your specific needs."
+      },
+      {
+        "id": 2,
+        "title": "Creative Problem-Solving",
+        "text": "My background in electrical engineering sharpened my problem-solving skills, allowing me to approach challenges with a unique perspective. I don’t just build websites—I craft solutions that drive results."
+      },
+      {
+        "id": 3,
+        "title": "Personalized Approach",
+        "text": "I take the time to understand your vision and translate it into a user experience that connects with your audience. With clear communication and reliable project management, I ensure smooth collaboration and deliver projects on time, every time."
+      }
+    ]
+  }
 }
