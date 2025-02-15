@@ -12,7 +12,7 @@
     @endif
 </head>
 <body>
-<div id="app">
+<div id="app" class="w-(--layout-width) max-w-(--layout-max-width) mx-auto">
     @include('includes.header')
     <main id="main">
         @yield('content')
