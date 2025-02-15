@@ -4,6 +4,7 @@
     @include('includes.meta')
 
     <title>@yield('title', 'Portfolio')</title>
+    <link rel="icon" href="{{ asset('favicon.svg') }}" type="image/x-icon"/>
 
     <!-- Styles & Scripts -->
     @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
