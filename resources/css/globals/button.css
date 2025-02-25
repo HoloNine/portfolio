@@ -1,0 +1,11 @@
+.button-group {
+    @apply flex
+}
+
+.button {
+    @apply inline-flex items-center justify-center gap-0.5;
+}
+
+.button-label {
+    @apply text-label uppercase;
+}

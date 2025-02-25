@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 
 @import 'tailwindcss';
+@import './globals/button.css';
 @import './home/sections/hero.css';
 
 @source '../../resources/**/*.blade.php';
 
 @theme {
+    --breakpoint-xs: 30rem;
+    --breakpoint-sm: 37.5rem;
+    --breakpoint-md: 52.5rem;
+    --breakpoint-lg: 75rem;
+    --breakpoint-xl: 100rem;
+
     --color-primary: hsl(352 63% 60%);
     --color-black: hsl(39 6% 12%);
     --color-black-90: hsl(39 6% 12% / 0.9);
@@ -56,11 +63,15 @@
     --text-body: clamp(1rem, 0.8571rem + 0.4762vw, 2rem);
     --text-body--line-height: 1.5;
 
-    --text-label: clamp(0.875rem, 0.7857rem + 0.2976vw, 1.5rem);
+    --text-label: clamp(14px, 14px + 0.2976vw, 24px);
     --text-label--line-height: 1.5;
+    --text-label--letter-spacing: 0.06em;
+    --text-label--font-weight: 400;
 
     --layout-max-width: 96rem;
     --layout-width: 90vw;
+
+    --spacing: clamp(1rem, 0.8571rem + 0.4762vw, 2rem);
 }
 
 /* TailwindCSS Preflight */
